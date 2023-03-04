@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ASJ Portfolio</title>
+</head>
+<body>
+   <div class="container">
+      <nav>
+         <div class="logo">folio<b>.</b></div>
+         <ul class="navItems">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">skills</a></li>
+            <li><a href="#">connect</a></li>
+         </ul>
+         <div class="links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+         </div>
+      </nav>
+
+      <div class="wrapper">
+            <div class="cols cols0">
+               <span class="topline">Hello</span>
+               <h1>I'm <span class="multiText"></span></h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quaerat consectetur at, saepe provident consequatur nisi nam cupiditate dicta rerum ullam velit vero doloribus a necessitatibus doloremque, quia repellat dignissimos?</p>
+               <div class="btns">
+                  <button>download CV</button>
+                  <button>hire me</button>
+               </div>
+            </div>
+
+            <div class="cols cols1">
+               <div class="imgbox">
+                  <img src="https://res.cloudinary.com/abhisree/image/upload/v1677704035/portfolio/splash1_ttod0y.png" id="splash">
+                  <img src="https://res.cloudinary.com/abhisree/image/upload/v1677704033/portfolio/IMG_0935_ebklbu.png" alt="" id="user">
+               </div>
+            </div>
+      </div>
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+      var typingEffect = new Typed(".multiText", {
+         strings : ["coder", "designer", "reels maker", "foodie"],
+         loop : true,
+         typeSpeed : 100,
+         backSpeed : 80,
+         backDelay : 1500
+      });
+   </script>
+</body>
+</html>
